@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "nhentai",
+  "version": "2.31",
+  "icons": { "16": "icon.png" },
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "main.js"
+  }
+}
